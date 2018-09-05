@@ -1,5 +1,5 @@
 
-#import "RCTUIManager.h"
+#import <React/RCTUIManager.h>
 #import <UIKit/UIKit.h>
 
 #import <SexyTooltip.h>

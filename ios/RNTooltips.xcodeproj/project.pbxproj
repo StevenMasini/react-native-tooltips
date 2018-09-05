@@ -7,35 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90C0228F213FA53500FB5C57 /* SexyTooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0228C213FA53400FB5C57 /* SexyTooltip.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNTooltips.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNTooltips.m */; };
-		CCE5160CD87BF3A3D91463CF /* libPods-RNTooltips.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F07CB86D884D7B6AC1F3E087 /* libPods-RNTooltips.a */; };
-		CE1E4A23202C461F00D7F75F /* libSexyTooltip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1E4A22202C461C00D7F75F /* libSexyTooltip.a */; };
-		CE1E4A39202C571200D7F75F /* libpop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1E4A20202C461C00D7F75F /* libpop.a */; };
+		B7E6DD6412FD8C0B7A429C9E /* libPods-RNTooltips.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD5D0C33528A0C0E13A83E4 /* libPods-RNTooltips.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CE1E4A1D202C461C00D7F75F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE1E4A17202C461C00D7F75F /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F4440807DE50E32758ADC74E35927E4B;
-			remoteInfo = "Pods-RNTooltips";
-		};
-		CE1E4A1F202C461C00D7F75F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE1E4A17202C461C00D7F75F /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C45A5D9657640E14FB3CE9822DADF686;
-			remoteInfo = pop;
-		};
-		CE1E4A21202C461C00D7F75F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE1E4A17202C461C00D7F75F /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F3FF4C81B20EB5001EA5E36AEABFAD4D;
-			remoteInfo = SexyTooltip;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
@@ -51,12 +26,13 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNTooltips.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTooltips.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CDF3AA4F76211B4DA007477 /* Pods-RNTooltips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTooltips.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNTooltips/Pods-RNTooltips.release.xcconfig"; sourceTree = "<group>"; };
+		2DD935A035EFC69FA48ED305 /* Pods-RNTooltips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTooltips.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNTooltips/Pods-RNTooltips.debug.xcconfig"; sourceTree = "<group>"; };
+		90C0228C213FA53400FB5C57 /* SexyTooltip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SexyTooltip.m; sourceTree = "<group>"; };
+		90C0228D213FA53400FB5C57 /* SexyTooltip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SexyTooltip.h; sourceTree = "<group>"; };
+		AF1A96AC116C0F9CD927EBCA /* Pods-RNTooltips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTooltips.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNTooltips/Pods-RNTooltips.release.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNTooltips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTooltips.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNTooltips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTooltips.m; sourceTree = "<group>"; };
-		BB6838FF2B20267EA32EB3B1 /* Pods-RNTooltips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTooltips.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNTooltips/Pods-RNTooltips.debug.xcconfig"; sourceTree = "<group>"; };
-		CE1E4A17202C461C00D7F75F /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
-		F07CB86D884D7B6AC1F3E087 /* libPods-RNTooltips.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTooltips.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD5D0C33528A0C0E13A83E4 /* libPods-RNTooltips.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTooltips.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,24 +40,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1E4A39202C571200D7F75F /* libpop.a in Frameworks */,
-				CE1E4A23202C461F00D7F75F /* libSexyTooltip.a in Frameworks */,
-				CCE5160CD87BF3A3D91463CF /* libPods-RNTooltips.a in Frameworks */,
+				B7E6DD6412FD8C0B7A429C9E /* libPods-RNTooltips.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		061FB00CC8A78CDD0F839087 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BB6838FF2B20267EA32EB3B1 /* Pods-RNTooltips.debug.xcconfig */,
-				6CDF3AA4F76211B4DA007477 /* Pods-RNTooltips.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,34 +55,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58B511D21A9E6C8500147676 = {
+		2544A0DF4A69D9B4C0A2A850 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B3E7B5881CC2AC0600A0062D /* RNTooltips.h */,
-				B3E7B5891CC2AC0600A0062D /* RNTooltips.m */,
-				134814211AA4EA7D00B7C361 /* Products */,
-				CE0D9A35202B162D009E3270 /* Frameworks */,
-				061FB00CC8A78CDD0F839087 /* Pods */,
-			);
-			sourceTree = "<group>";
-		};
-		CE0D9A35202B162D009E3270 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CE1E4A17202C461C00D7F75F /* Pods.xcodeproj */,
-				F07CB86D884D7B6AC1F3E087 /* libPods-RNTooltips.a */,
+				BFD5D0C33528A0C0E13A83E4 /* libPods-RNTooltips.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CE1E4A18202C461C00D7F75F /* Products */ = {
+		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				CE1E4A1E202C461C00D7F75F /* libPods-RNTooltips.a */,
-				CE1E4A20202C461C00D7F75F /* libpop.a */,
-				CE1E4A22202C461C00D7F75F /* libSexyTooltip.a */,
+				90C0228B213FA53400FB5C57 /* SexyTooltip */,
+				B3E7B5881CC2AC0600A0062D /* RNTooltips.h */,
+				B3E7B5891CC2AC0600A0062D /* RNTooltips.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+				76934ADAF1292A378FB5206F /* Pods */,
+				2544A0DF4A69D9B4C0A2A850 /* Frameworks */,
 			);
-			name = Products;
+			sourceTree = "<group>";
+		};
+		76934ADAF1292A378FB5206F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DD935A035EFC69FA48ED305 /* Pods-RNTooltips.debug.xcconfig */,
+				AF1A96AC116C0F9CD927EBCA /* Pods-RNTooltips.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90C0228B213FA53400FB5C57 /* SexyTooltip */ = {
+			isa = PBXGroup;
+			children = (
+				90C0228C213FA53400FB5C57 /* SexyTooltip.m */,
+				90C0228D213FA53400FB5C57 /* SexyTooltip.h */,
+			);
+			path = SexyTooltip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,11 +100,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNTooltips" */;
 			buildPhases = (
-				F004F19AFE06FE2CCCFBD786 /* [CP] Check Pods Manifest.lock */,
+				BB2C67E79DB760524F366BB5 /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
-				FA0E49E01FC8EB10CDF2A91A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,12 +138,6 @@
 			mainGroup = 58B511D21A9E6C8500147676;
 			productRefGroup = 58B511D21A9E6C8500147676;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = CE1E4A18202C461C00D7F75F /* Products */;
-					ProjectRef = CE1E4A17202C461C00D7F75F /* Pods.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* RNTooltips */,
@@ -179,32 +145,8 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		CE1E4A1E202C461C00D7F75F /* libPods-RNTooltips.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libPods-RNTooltips.a";
-			remoteRef = CE1E4A1D202C461C00D7F75F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CE1E4A20202C461C00D7F75F /* libpop.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libpop.a;
-			remoteRef = CE1E4A1F202C461C00D7F75F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CE1E4A22202C461C00D7F75F /* libSexyTooltip.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSexyTooltip.a;
-			remoteRef = CE1E4A21202C461C00D7F75F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXShellScriptBuildPhase section */
-		F004F19AFE06FE2CCCFBD786 /* [CP] Check Pods Manifest.lock */ = {
+		BB2C67E79DB760524F366BB5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,21 +164,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FA0E49E01FC8EB10CDF2A91A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNTooltips/Pods-RNTooltips-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -244,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C0228F213FA53500FB5C57 /* SexyTooltip.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNTooltips.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +262,7 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB6838FF2B20267EA32EB3B1 /* Pods-RNTooltips.debug.xcconfig */;
+			baseConfigurationReference = 2DD935A035EFC69FA48ED305 /* Pods-RNTooltips.debug.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -343,7 +271,6 @@
 					"$(SRCROOT)/../../react-native/React/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNTooltips;
 				SKIP_INSTALL = YES;
 			};
@@ -351,7 +278,7 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CDF3AA4F76211B4DA007477 /* Pods-RNTooltips.release.xcconfig */;
+			baseConfigurationReference = AF1A96AC116C0F9CD927EBCA /* Pods-RNTooltips.release.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -360,7 +287,6 @@
 					"$(SRCROOT)/../../react-native/React/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNTooltips;
 				SKIP_INSTALL = YES;
 			};
